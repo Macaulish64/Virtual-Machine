@@ -14,7 +14,7 @@
 - 也有区分出I/O设备，对I/O设备使用I/O总线，通过IOP（输入输出处理器）连接到系统总线1上。
 - 再后来有了多种外部设备，计算机的设计不再以CPU为主，并提出绕过CPU执行的命令，即DMA方式。并且为了区分多种I/O设备速度上差异，使用多级总线区分开速度不同设备，并通过桥连接起来。
 ```
-![框架设计](https://github.com/Macaulish64/Virtual-Machine/blob/master/drawio/cpu%E5%86%85%E9%83%A8%E6%A1%86%E6%9E%B6.png)
+![框架设计](https://github.com/Macaulish64/Virtual-Machine/blob/master/drawio/%E6%A1%86%E6%9E%B6%E8%AE%BE%E8%AE%A1.JPG)
 
 
 #####	设计
@@ -33,7 +33,9 @@
 
 #####			cpu内部结构
 	    在查阅了集中常见框架的设计后，决定仿照8086的框架体系，同时改变8086框架中寄存器的数量和作用，简化8086的数据通路图。
-	![cpu内部框架](https://github.com/Macaulish64/Virtual-Machine/blob/master/drawio/cpu%E5%86%85%E9%83%A8%E6%A1%86%E6%9E%B6.png)
+	    
+![cpu内部框架](https://github.com/Macaulish64/Virtual-Machine/blob/master/drawio/cpu%E5%86%85%E9%83%A8%E6%A1%86%E6%9E%B6.png)
+	
 | 部件编号 | 部件名称        | 描述说明                                                     |
 | -------- | --------------- | :----------------------------------------------------------- |
 | 1        | 指针寄存器堆    | CX（用于loop循环），<br />AX（累加器，用于数组），<br />SP（堆栈指针），<br />PC（当前相对指令指针）。 |
