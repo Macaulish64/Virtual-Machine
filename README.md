@@ -17,7 +17,7 @@
 ![框架设计](https://github.com/Macaulish64/Virtual-Machine/blob/master/drawio/%E6%A1%86%E6%9E%B6%E8%AE%BE%E8%AE%A1.JPG)
 
 
-#####	设计
+##### 设计
 
  ```
 从拓展性角度，选择分级总线的方式。这样在实现时可拆分进度：
@@ -128,7 +128,7 @@
 -依据指令的5阶段，选出几条典型指令用流程图描述其执行过程。如下图。
  ```
 
-#####流程图
+##### 流程图
 
 ![标题-](https://github.com/Macaulish64/Virtual-Machine/blob/master/drawio/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png)
 
@@ -138,7 +138,7 @@
 -与ADD类似的指令有：SUB,MUL,DIV,AND,OR,XOR,SHL,SHR,CMP,ADDX,SUBX,
 ```
 
-#####内核指令表
+##### 内核指令表
 
 ![核指令pd](https://github.com/Macaulish64/Virtual-Machine/blob/master/drawio/%E5%86%85%E6%A0%B8%E6%8C%87%E4%BB%A4pdf.png)
 
