@@ -33,7 +33,7 @@
 
 #####			cpu内部结构
 	    在查阅了集中常见框架的设计后，决定仿照8086的框架体系，同时改变8086框架中寄存器的数量和作用，简化8086的数据通路图。
-​		![cpu内部框架](E:\课件\大二下\计算机组成原理课程设计\cpu内部框架.png)
+	![cpu内部框架](https://github.com/Macaulish64/Virtual-Machine/blob/master/drawio/cpu%E5%86%85%E9%83%A8%E6%A1%86%E6%9E%B6.png)
 | 部件编号 | 部件名称        | 描述说明                                                     |
 | -------- | --------------- | :----------------------------------------------------------- |
 | 1        | 指针寄存器堆    | CX（用于loop循环），<br />AX（累加器，用于数组），<br />SP（堆栈指针），<br />PC（当前相对指令指针）。 |
@@ -128,7 +128,7 @@
 
 #####流程图
 
-![标题-](E:\课件\大二下\计算机组成原理课程设计\未标题-1.png)
+![标题-](https://github.com/Macaulish64/Virtual-Machine/blob/master/drawio/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png)
 
 ```
 -与STO类似的指令有：STOX,LAD,LADX
@@ -138,7 +138,7 @@
 
 #####内核指令表
 
-![核指令pd](E:\课件\大二下\计算机组成原理课程设计\内核指令pdf.png)
+![核指令pd](https://github.com/Macaulish64/Virtual-Machine/blob/master/drawio/%E5%86%85%E6%A0%B8%E6%8C%87%E4%BB%A4pdf.png)
 
 #### 			4.拓展指令简述
 ```
